@@ -1,0 +1,119 @@
+[
+ {
+  "id": "rns",
+  "name": "Reticulum Network Stack (RNS)",
+  "version": "1.5.7",
+  "license": "Reticulum License",
+  "by": "Mark Qvist",
+  "source": "https://github.com/markqvist/Reticulum",
+  "note": "Included unmodified from PyPI. Its licence has two conditions of use: the software must not be used in a system able to purposefully do harm to human beings, and must not be used to create an AI or machine learning training dataset. They apply to everyone who uses this part of Wildcat Mesh."
+ },
+ {
+  "id": "lxmf",
+  "name": "LXMF",
+  "version": "1.2.0",
+  "license": "Reticulum License",
+  "by": "Mark Qvist",
+  "source": "https://github.com/markqvist/LXMF",
+  "note": "Included unmodified from PyPI. The same two conditions of use apply."
+ },
+ {
+  "id": "python",
+  "name": "Python (CPython)",
+  "version": "3.13.16",
+  "license": "Python Software Foundation License 2.0",
+  "by": "Python Software Foundation",
+  "source": "https://github.com/python/cpython",
+  "note": "The Python runtime Reticulum runs in."
+ },
+ {
+  "id": "python-incorporated",
+  "name": "Software inside Python",
+  "version": "3.13.16",
+  "license": "Several (see the text)",
+  "by": "Various",
+  "source": "https://docs.python.org/3.13/license.html",
+  "note": "Notices for the software Python incorporates, such as expat, libmpdec, HACL* and the Mersenne Twister."
+ },
+ {
+  "id": "python-apple-support",
+  "name": "Python Apple Support",
+  "version": "3.13-b16",
+  "license": "MIT",
+  "by": "Russell Keith-Magee (BeeWare)",
+  "source": "https://github.com/beeware/Python-Apple-support",
+  "note": "The build of Python for iPhone."
+ },
+ {
+  "id": "openssl",
+  "name": "OpenSSL",
+  "version": "3.5.9",
+  "license": "Apache License 2.0",
+  "by": "The OpenSSL Project Authors",
+  "source": "https://github.com/openssl/openssl",
+  "note": "Encryption inside the Python runtime."
+ },
+ {
+  "id": "cryptography",
+  "name": "cryptography",
+  "version": "47.0.0",
+  "license": "Apache License 2.0 or BSD 3-Clause",
+  "by": "The Python Cryptographic Authority",
+  "source": "https://github.com/pyca/cryptography",
+  "note": "Encryption used by Reticulum."
+ },
+ {
+  "id": "cffi",
+  "name": "cffi",
+  "version": "2.0.0",
+  "license": "MIT",
+  "by": "Armin Rigo, Maciej Fijalkowski",
+  "source": "https://github.com/python-cffi/cffi",
+  "note": ""
+ },
+ {
+  "id": "pyserial",
+  "name": "pySerial",
+  "version": "3.5",
+  "license": "BSD 3-Clause",
+  "by": "Chris Liechti",
+  "source": "https://github.com/pyserial/pyserial",
+  "note": ""
+ },
+ {
+  "id": "libffi",
+  "name": "libffi",
+  "version": "3.4.7",
+  "license": "MIT",
+  "by": "Anthony Green, Red Hat, Inc and others",
+  "source": "https://github.com/libffi/libffi",
+  "note": ""
+ },
+ {
+  "id": "bzip2",
+  "name": "bzip2",
+  "version": "1.0.8",
+  "license": "bzip2 License",
+  "by": "Julian R Seward",
+  "source": "https://sourceware.org/bzip2/",
+  "note": ""
+ },
+ {
+  "id": "xz",
+  "name": "XZ Utils (liblzma)",
+  "version": "5.6.4",
+  "license": "BSD Zero Clause",
+  "by": "The XZ Utils authors",
+  "source": "https://github.com/tukaani-project/xz",
+  "note": ""
+ },
+ {
+  "id": "mpdecimal",
+  "name": "mpdecimal",
+  "version": "4.0.0",
+  "license": "BSD 2-Clause",
+  "by": "Stefan Krah",
+  "source": "https://www.bytereef.org/mpdecimal/",
+  "note": ""
+ }
+]

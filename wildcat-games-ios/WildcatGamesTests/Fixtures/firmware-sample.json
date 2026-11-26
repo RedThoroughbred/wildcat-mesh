@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "generated": "2026-10-02T15:17:24Z",
+  "source": "Test fixture shaped like tools/firmware.json",
+  "networks": {
+    "meshtastic": {
+      "repo": "meshtastic/firmware",
+      "latest": {
+        "version": "2.7.26",
+        "full": "2.7.26.54e0d8d",
+        "build": "54e0d8d",
+        "tag": "v2.7.26.54e0d8d",
+        "name": "Meshtastic Firmware 2.7.26.54e0d8d Beta",
+        "date": "2026-06-24",
+        "url": "https://github.com/meshtastic/firmware/releases/tag/v2.7.26.54e0d8d",
+        "summary": "Bug fixes and maintenance: Lora led rx; Set the time from GPS every 30 minutes."
+      },
+      "tested": { "version": "2.7.x", "note": "Tested against Meshtastic 2.7." }
+    },
+    "meshcore": {
+      "repo": "meshcore-dev/MeshCore",
+      "latest": {
+        "version": "1.17.1",
+        "full": "v1.17.1-d929643",
+        "build": "d929643",
+        "tag": "companion-v1.17.1",
+        "name": "Companion Firmware v1.17.1",
+        "date": "2026-08-14",
+        "url": "https://github.com/meshcore-dev/MeshCore/releases/tag/companion-v1.17.1",
+        "summary": "Companion Firmware v1.17.1. See the release page for what changed."
+      },
+      "tested": { "version": "1.17.1", "note": "Tested against MeshCore companion 1.17.1." },
+      "role": "companion",
+      "futureField": { "ignored": true }
+    }
+  }
+}

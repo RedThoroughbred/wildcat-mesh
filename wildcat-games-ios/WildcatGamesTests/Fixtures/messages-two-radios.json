@@ -1,0 +1,1042 @@
+{
+ "messages": [
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 0 (53 chars)",
+   "viaMQTT": true,
+   "time": 1790728642.4292521,
+   "receivedAt": 1790728641,
+   "hopStart": 7,
+   "id": "DE840734-737C-421B-A1CA-2C383B4F32C6",
+   "size": 75,
+   "from": "Node1",
+   "packetID": 1576823223,
+   "airtimeMs": 805,
+   "rssi": -118,
+   "hopLimit": 2,
+   "snr": -7.75,
+   "reactions": {},
+   "hops": 5
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 1 (9 chars)",
+   "viaMQTT": true,
+   "time": 1790812360.173811,
+   "receivedAt": 1790765467,
+   "hopStart": 5,
+   "id": "04C63E2A-D1C9-4C25-91DA-AEC281FA4AFF",
+   "size": 31,
+   "from": "Node2",
+   "packetID": 889653345,
+   "airtimeMs": 477,
+   "rssi": -115,
+   "hopLimit": 0,
+   "snr": -5.25,
+   "reactions": {},
+   "hops": 5
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 2 (9 chars)",
+   "viaMQTT": true,
+   "time": 1790812360.2331982,
+   "receivedAt": 1790767697,
+   "hopStart": 7,
+   "id": "7A46580D-8EF2-4B4D-B2C1-66D936342FF3",
+   "size": 35,
+   "from": "Node3",
+   "packetID": 2036926357,
+   "airtimeMs": 518,
+   "rssi": -120,
+   "hopLimit": 4,
+   "snr": -9.75,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 3 (5 chars)",
+   "viaMQTT": true,
+   "time": 1790812360.295337,
+   "receivedAt": 1790769673,
+   "hopStart": 7,
+   "id": "14FACEEB-1B77-444C-839B-F0321522D24C",
+   "size": 27,
+   "from": "Node3",
+   "packetID": 2277820260,
+   "airtimeMs": 436,
+   "rssi": -120,
+   "hopLimit": 4,
+   "snr": -10.25,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 128,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 4 (151 chars)",
+   "viaMQTT": true,
+   "time": 1790812360.355423,
+   "receivedAt": 1790773536,
+   "hopStart": 7,
+   "id": "E14BF330-603F-48B0-8C7C-E40C11C2415C",
+   "size": 174,
+   "from": "Node4",
+   "packetID": 1673946406,
+   "airtimeMs": 1542,
+   "rssi": -11,
+   "hopLimit": 0,
+   "snr": 6.5,
+   "reactions": {},
+   "hops": 7
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 5 (20 chars)",
+   "viaMQTT": true,
+   "time": 1790876890.091951,
+   "receivedAt": 1790850942,
+   "hopStart": 5,
+   "id": "90B388C7-DCBD-49C5-BEEB-B4D04E8EFB07",
+   "size": 42,
+   "from": "Node2",
+   "packetID": 2921948847,
+   "airtimeMs": 559,
+   "rssi": -114,
+   "hopLimit": 0,
+   "snr": -4,
+   "reactions": {},
+   "hops": 5
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 6 (3 chars)",
+   "viaMQTT": true,
+   "time": 1790876890.149671,
+   "receivedAt": 1790856817,
+   "hopStart": 7,
+   "id": "0554A196-9829-4130-B23D-5024FC76091B",
+   "size": 29,
+   "from": "Node5",
+   "packetID": 1359592355,
+   "airtimeMs": 477,
+   "rssi": -113,
+   "hopLimit": 2,
+   "snr": -3.75,
+   "reactions": {},
+   "hops": 5
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 7 (1 chars)",
+   "viaMQTT": true,
+   "time": 1790876890.209683,
+   "receivedAt": 1790865505,
+   "hopStart": 7,
+   "id": "8124F42E-D937-4B5D-8B99-8E7C7999F41B",
+   "size": 26,
+   "from": "Node6",
+   "packetID": 784925538,
+   "airtimeMs": 436,
+   "rssi": -114,
+   "hopLimit": 4,
+   "snr": -4.75,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 8 (56 chars)",
+   "viaMQTT": true,
+   "time": 1790876890.270294,
+   "receivedAt": 1790874164,
+   "hopStart": 5,
+   "id": "CC8D358C-EB4F-4D0C-AB14-C5C1A20EDA75",
+   "size": 78,
+   "from": "Node2",
+   "packetID": 1787763347,
+   "airtimeMs": 846,
+   "rssi": -115,
+   "hopLimit": 0,
+   "snr": -4.75,
+   "reactions": {},
+   "hops": 5
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 9 (7 chars)",
+   "viaMQTT": true,
+   "time": 1790876890.3288941,
+   "receivedAt": 1790874785,
+   "hopStart": 7,
+   "id": "7A925F91-8801-44B0-A5D1-23300B914D89",
+   "size": 29,
+   "from": "Node1",
+   "packetID": 3154708088,
+   "airtimeMs": 477,
+   "rssi": -117,
+   "hopLimit": 2,
+   "snr": -7.25,
+   "reactions": {},
+   "hops": 5
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 10 (4 chars)",
+   "viaMQTT": true,
+   "time": 1790876890.3891392,
+   "receivedAt": 1790875352,
+   "hopStart": 7,
+   "id": "60313E89-E7D8-4CFB-ABAC-966D09674B7F",
+   "size": 26,
+   "from": "Node7",
+   "packetID": 1403566841,
+   "airtimeMs": 436,
+   "rssi": -114,
+   "hopLimit": 2,
+   "snr": -4,
+   "reactions": {},
+   "hops": 5
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 11 (85 chars)",
+   "viaMQTT": true,
+   "time": 1790896278.197023,
+   "receivedAt": 1790878289,
+   "hopStart": 7,
+   "id": "E00CA9E4-017F-4291-9388-D18F36E266D6",
+   "size": 107,
+   "from": "Node8",
+   "packetID": 2035673551,
+   "airtimeMs": 1051,
+   "rssi": -112,
+   "hopLimit": 4,
+   "snr": -2.75,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 12 (98 chars)",
+   "viaMQTT": true,
+   "time": 1790896279.0024428,
+   "receivedAt": 1790878873,
+   "hopStart": 7,
+   "id": "79579F86-5A38-498C-B644-2D17668A49A4",
+   "size": 120,
+   "from": "Node8",
+   "packetID": 592069752,
+   "airtimeMs": 1133,
+   "rssi": -113,
+   "hopLimit": 4,
+   "snr": -3,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 13 (40 chars)",
+   "viaMQTT": true,
+   "time": 1790896279.062334,
+   "receivedAt": 1790878884,
+   "hopStart": 7,
+   "id": "AE8842C7-419B-468C-B983-4340FE4F1B06",
+   "size": 62,
+   "from": "Node8",
+   "packetID": 1797831317,
+   "airtimeMs": 723,
+   "rssi": -113,
+   "hopLimit": 4,
+   "snr": -3.75,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 14 (37 chars)",
+   "viaMQTT": true,
+   "time": 1790896279.121019,
+   "receivedAt": 1790879212,
+   "hopStart": 7,
+   "id": "A8AB03BF-CC96-4DF1-BC63-C05DB7649292",
+   "size": 59,
+   "from": "Node8",
+   "packetID": 370012832,
+   "airtimeMs": 682,
+   "rssi": -112,
+   "hopLimit": 4,
+   "snr": -2.25,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 15 (36 chars)",
+   "viaMQTT": true,
+   "time": 1790896279.180781,
+   "receivedAt": 1790879223,
+   "hopStart": 7,
+   "id": "32AD74F8-2D23-455E-B7CF-D09449E7D98D",
+   "size": 58,
+   "from": "Node8",
+   "packetID": 512550303,
+   "airtimeMs": 682,
+   "rssi": -110,
+   "hopLimit": 4,
+   "snr": -0.5,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 16 (40 chars)",
+   "viaMQTT": true,
+   "time": 1790896279.243931,
+   "receivedAt": 1790879233,
+   "hopStart": 7,
+   "id": "A7DCC0B2-9989-433C-BE94-EA68F3808A1A",
+   "size": 62,
+   "from": "Node8",
+   "packetID": 1968421613,
+   "airtimeMs": 723,
+   "rssi": -122,
+   "hopLimit": 4,
+   "snr": -11.75,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 17 (81 chars)",
+   "viaMQTT": true,
+   "time": 1790896279.301111,
+   "receivedAt": 1790879629,
+   "hopStart": 7,
+   "id": "94FE83BD-2829-42DB-9D65-8B9428C89A1A",
+   "size": 103,
+   "from": "Node8",
+   "packetID": 611021740,
+   "airtimeMs": 1010,
+   "rssi": -114,
+   "hopLimit": 4,
+   "snr": -5.75,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 18 (43 chars)",
+   "viaMQTT": true,
+   "time": 1790896279.483485,
+   "receivedAt": 1790879833,
+   "hopStart": 7,
+   "id": "D0C30707-D692-438A-BCD5-B4474EBC8645",
+   "size": 65,
+   "from": "Node8",
+   "packetID": 243189035,
+   "airtimeMs": 723,
+   "rssi": -117,
+   "hopLimit": 4,
+   "snr": -6.5,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 19 (26 chars)",
+   "viaMQTT": true,
+   "time": 1790896279.541257,
+   "receivedAt": 1790879849,
+   "hopStart": 7,
+   "id": "0917EAC9-B877-4C10-9A2E-694B71CEFD8F",
+   "size": 48,
+   "from": "Node8",
+   "packetID": 2093620163,
+   "airtimeMs": 600,
+   "rssi": -114,
+   "hopLimit": 4,
+   "snr": -5,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 20 (37 chars)",
+   "viaMQTT": true,
+   "time": 1790896279.600975,
+   "receivedAt": 1790879940,
+   "hopStart": 7,
+   "id": "B25A2908-FA61-43F5-B51E-E3A3FDF8CE56",
+   "size": 59,
+   "from": "Node8",
+   "packetID": 536423830,
+   "airtimeMs": 682,
+   "rssi": -117,
+   "hopLimit": 4,
+   "snr": -6.5,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 21 (50 chars)",
+   "viaMQTT": true,
+   "time": 1790896279.663282,
+   "receivedAt": 1790880240,
+   "hopStart": 7,
+   "id": "371BD6D1-7E3F-43DE-BA70-85F13250E3AF",
+   "size": 72,
+   "from": "Node8",
+   "packetID": 2044863642,
+   "airtimeMs": 805,
+   "rssi": -111,
+   "hopLimit": 4,
+   "snr": -1.5,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "status": {
+    "sent": {}
+   },
+   "outgoing": true,
+   "size": 40,
+   "conversation": {
+    "channel": {
+     "_0": 5
+    }
+   },
+   "viaMQTT": false,
+   "time": 1790897332.6773272,
+   "text": "message 22 (20 chars)",
+   "airtimeMs": 559,
+   "id": "446BA859-20CA-4B60-A71A-20B5CB21C07C",
+   "from": "!716c668c",
+   "packetID": 420073929,
+   "radio": "!716c668c",
+   "reactions": {},
+   "bridged": {
+    "senderName": "Wildcat Bag",
+    "network": "meshcore",
+    "channel": "WGBRIDGE",
+    "senderID": "6b64e441a90e",
+    "heardBy": "6b64e441a90eebfc04fda8c1586e50d185413b2f3773c67c79db0e03b3d40e05",
+    "via": "!716c668c"
+   }
+  },
+  {
+   "status": {
+    "sent": {}
+   },
+   "outgoing": true,
+   "size": 44,
+   "conversation": {
+    "channel": {
+     "_0": 5
+    }
+   },
+   "viaMQTT": false,
+   "time": 1790897365.419971,
+   "text": "message 23 (24 chars)",
+   "airtimeMs": 559,
+   "id": "4F510AED-5749-4B27-BFE6-6F4E70A2C323",
+   "from": "!716c668c",
+   "packetID": 1448176187,
+   "radio": "!716c668c",
+   "reactions": {},
+   "bridged": {
+    "senderName": "Wildcat Bag",
+    "network": "meshcore",
+    "channel": "WGBRIDGE",
+    "senderID": "6b64e441a90e",
+    "heardBy": "6b64e441a90eebfc04fda8c1586e50d185413b2f3773c67c79db0e03b3d40e05",
+    "via": "!716c668c"
+   }
+  },
+  {
+   "status": {
+    "sent": {}
+   },
+   "outgoing": true,
+   "size": 58,
+   "conversation": {
+    "channel": {
+     "_0": 5
+    }
+   },
+   "viaMQTT": false,
+   "time": 1790897685.6750731,
+   "text": "message 24 (38 chars)",
+   "airtimeMs": 682,
+   "id": "2C1C9560-D569-4F62-B4BF-59D619366F31",
+   "from": "!716c668c",
+   "packetID": 1181021021,
+   "radio": "!716c668c",
+   "reactions": {},
+   "bridged": {
+    "senderName": "Wildcat Bag",
+    "network": "meshcore",
+    "channel": "WGBRIDGE",
+    "senderID": "6b64e441a90e",
+    "heardBy": "6b64e441a90eebfc04fda8c1586e50d185413b2f3773c67c79db0e03b3d40e05",
+    "via": "!716c668c"
+   }
+  },
+  {
+   "status": {
+    "sent": {}
+   },
+   "outgoing": true,
+   "size": 31,
+   "conversation": {
+    "channel": {
+     "_0": 5
+    }
+   },
+   "viaMQTT": false,
+   "time": 1790897700.46027,
+   "text": "message 25 (11 chars)",
+   "airtimeMs": 477,
+   "id": "533D1713-E417-4C4E-945B-950AA545A143",
+   "from": "!716c668c",
+   "packetID": 861335507,
+   "radio": "!716c668c",
+   "reactions": {}
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 26 (13 chars)",
+   "viaMQTT": true,
+   "time": 1790938195.17647,
+   "receivedAt": 1790938193,
+   "hopStart": 5,
+   "id": "01665FCC-0C01-49B6-AF84-3F8970ADD4FA",
+   "size": 35,
+   "from": "Node2",
+   "packetID": 1800839978,
+   "airtimeMs": 518,
+   "rssi": -112,
+   "hopLimit": 0,
+   "snr": -3.25,
+   "reactions": {},
+   "hops": 5
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 27 (8 chars)",
+   "viaMQTT": true,
+   "time": 1790938465.129743,
+   "receivedAt": 1790938463,
+   "hopStart": 5,
+   "id": "38BE1702-DCE7-4B6A-8B9C-2601994C3667",
+   "size": 30,
+   "from": "Node2",
+   "packetID": 448682447,
+   "airtimeMs": 477,
+   "rssi": -112,
+   "hopLimit": 0,
+   "snr": -3.75,
+   "reactions": {},
+   "hops": 5
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 28 (45 chars)",
+   "viaMQTT": true,
+   "time": 1790944423.073339,
+   "receivedAt": 1790944422,
+   "hopStart": 7,
+   "id": "DB87692B-5A34-4A86-8A36-1150496467A1",
+   "size": 67,
+   "from": "Node1",
+   "packetID": 2006830838,
+   "airtimeMs": 764,
+   "rssi": -112,
+   "hopLimit": 1,
+   "snr": -4,
+   "reactions": {},
+   "hops": 6
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 29 (19 chars)",
+   "viaMQTT": true,
+   "time": 1790944819.827328,
+   "receivedAt": 1790944818,
+   "hopStart": 5,
+   "id": "FF10A917-C95F-47C3-8E0B-CA26CC99DF8B",
+   "size": 41,
+   "from": "Node2",
+   "packetID": 1944045445,
+   "airtimeMs": 559,
+   "rssi": -110,
+   "hopLimit": 0,
+   "snr": -1.5,
+   "reactions": {},
+   "hops": 5
+  },
+  {
+   "status": {
+    "sent": {}
+   },
+   "outgoing": true,
+   "size": 41,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "viaMQTT": false,
+   "time": 1790947073.139361,
+   "text": "message 30 (21 chars)",
+   "airtimeMs": 559,
+   "id": "FFD82356-06F8-4127-B320-22664E0C9B8D",
+   "from": "!716c668c",
+   "packetID": 1328628765,
+   "radio": "!716c668c",
+   "reactions": {}
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 31 (38 chars)",
+   "viaMQTT": true,
+   "time": 1790954195.61762,
+   "receivedAt": 1790954195,
+   "hopStart": 4,
+   "id": "BA3587EF-C789-464F-A529-3597FE2B5E5E",
+   "size": 60,
+   "from": "Node9",
+   "packetID": 911785415,
+   "airtimeMs": 682,
+   "rssi": -111,
+   "hopLimit": 1,
+   "snr": -3.5,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "status": {
+    "sent": {}
+   },
+   "outgoing": true,
+   "size": 40,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "viaMQTT": false,
+   "time": 1790954216.014935,
+   "text": "message 32 (20 chars)",
+   "airtimeMs": 559,
+   "id": "F06185F4-55A0-4FE1-8849-CB4B378380F6",
+   "from": "!716c668c",
+   "packetID": 1301553207,
+   "radio": "!716c668c",
+   "reactions": {}
+  },
+  {
+   "radio": "!716c668c",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 120,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 33 (55 chars)",
+   "viaMQTT": true,
+   "time": 1790954278.689285,
+   "receivedAt": 1790954278,
+   "hopStart": 4,
+   "id": "09EE0AB9-8323-4D71-AC49-E9B527CDDE9D",
+   "size": 77,
+   "from": "Node9",
+   "packetID": 1080606757,
+   "airtimeMs": 805,
+   "rssi": -110,
+   "hopLimit": 1,
+   "snr": -3.5,
+   "reactions": {},
+   "hops": 3
+  },
+  {
+   "status": {
+    "sent": {}
+   },
+   "outgoing": true,
+   "size": 25,
+   "conversation": {
+    "channel": {
+     "_0": 5
+    }
+   },
+   "viaMQTT": false,
+   "time": 1790962660.268509,
+   "text": "message 34 (5 chars)",
+   "airtimeMs": 436,
+   "id": "F0799563-D5E7-4680-86F4-840CECC1D1EE",
+   "from": "!b213bcf6",
+   "packetID": 2006775423,
+   "radio": "!b213bcf6",
+   "reactions": {}
+  },
+  {
+   "status": {
+    "sent": {}
+   },
+   "outgoing": true,
+   "size": 56,
+   "conversation": {
+    "channel": {
+     "_0": 5
+    }
+   },
+   "viaMQTT": false,
+   "time": 1790962713.524601,
+   "text": "message 35 (36 chars)",
+   "airtimeMs": 682,
+   "id": "627D9E37-0262-418E-8FA7-29694C2DB00D",
+   "from": "!b213bcf6",
+   "packetID": 383899740,
+   "radio": "!b213bcf6",
+   "reactions": {},
+   "bridged": {
+    "senderName": "Wildcat Bag",
+    "network": "meshcore",
+    "channel": "WGBRIDGE",
+    "senderID": "6b64e441a90e",
+    "heardBy": "6b64e441a90eebfc04fda8c1586e50d185413b2f3773c67c79db0e03b3d40e05",
+    "via": "!b213bcf6"
+   }
+  },
+  {
+   "status": {
+    "sent": {}
+   },
+   "outgoing": true,
+   "size": 27,
+   "conversation": {
+    "channel": {
+     "_0": 5
+    }
+   },
+   "viaMQTT": false,
+   "time": 1790962723.7101169,
+   "text": "message 36 (7 chars)",
+   "airtimeMs": 436,
+   "id": "8B4A38FE-900F-4D6E-BF21-5FA899CB5D39",
+   "from": "!b213bcf6",
+   "packetID": 375823519,
+   "radio": "!b213bcf6",
+   "reactions": {}
+  },
+  {
+   "radio": "!b213bcf6",
+   "status": {
+    "received": {}
+   },
+   "relayNode": 140,
+   "outgoing": false,
+   "conversation": {
+    "channel": {
+     "_0": 0
+    }
+   },
+   "text": "message 37 (16 chars)",
+   "viaMQTT": true,
+   "time": 1790963049.8953938,
+   "receivedAt": 1790963034,
+   "hopStart": 7,
+   "id": "197AFCAE-E852-42D0-A0A4-48E303ED22F1",
+   "replyTo": 3277767462,
+   "from": "Node1",
+   "packetID": 485473815,
+   "size": 43,
+   "airtimeMs": 559,
+   "rssi": -35,
+   "hopLimit": 0,
+   "snr": 7,
+   "reactions": {},
+   "hops": 7
+  }
+ ],
+ "lastRead": {
+  "ch0": 1790962542.8446941,
+  "ch5": 1790962734.508815
+ }
+}

@@ -1,0 +1,320 @@
+{
+ "rns_version": "1.5.7",
+ "made": 1791753802,
+ "path_request_destination": "6b9f66014d9853faab220fba47d02761",
+ "vectors": [
+  {
+   "name": "announce",
+   "note": "beacon.py's announce: SINGLE destination, header 1, app data",
+   "raw": "010053802fddcecac99e39bf6144e3e1de1d00b248e887f44484faf9e0f282f0ae26067c2d2dedb37b34dac378816440aedf2d6e5239c572da9859c56d61779569ac46dec848b4fb0b7b154c973da170f4c3a13e73c11e06b8a4585dc0a94858acc5006acbfe4a8019262397000540fc800dd2414f198326625318be4f4fe0eb3c992b92bf616263be6747ff9b9ab545bff411c77b7a6f52ca0bac2d1857ef74bb1da323247d0c68656c6c6f2066726f6d20746865204d6163202331",
+   "length": 188,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 0,
+    "propagation": 0,
+    "destination_type": 0,
+    "packet_type": 1,
+    "hops": 0,
+    "transport_id": null,
+    "destination_hash": "53802fddcecac99e39bf6144e3e1de1d",
+    "context": 0,
+    "data_length": 169
+   }
+  },
+  {
+   "name": "announce_ratchet",
+   "note": "announce from a destination with ratchets: the context flag is set",
+   "raw": "21003d9f6b8e77ea0078b3902f8ecdb2091e00d4b8dae8cfe25557266856493f600f9c80ebeafc7fb9b4fe7c7900f0d2a2a2416de2a0dc4dd2b6c507485b94eb43f9a763d0a77a990a57f6d0e3d7a3cecd2a3cdf4a737809345c0904c9d7d799fd9b006acbfe4a622da8c982b3dc5bc381baea0a575b7a6bd4de72dfa7484412e0759abb10c34977923adcb752b30e7ecac2d9d340496cc8cf44484606b0cdcf69c1ba289de2854097e805c6f79a3bc1c22f201ae8948262dfa27f78bfc58ef50ef46ae59d2304776974682072617463686574",
+   "length": 211,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 1,
+    "propagation": 0,
+    "destination_type": 0,
+    "packet_type": 1,
+    "hops": 0,
+    "transport_id": null,
+    "destination_hash": "3d9f6b8e77ea0078b3902f8ecdb2091e",
+    "context": 0,
+    "data_length": 192
+   }
+  },
+  {
+   "name": "announce_relayed",
+   "note": "relayed by a transport node: header 2 carries its transport id first",
+   "raw": "51019d9bd080c0a081d0054ff72ceaa32fee53802fddcecac99e39bf6144e3e1de1d00b248e887f44484faf9e0f282f0ae26067c2d2dedb37b34dac378816440aedf2d6e5239c572da9859c56d61779569ac46dec848b4fb0b7b154c973da170f4c3a13e73c11e06b8a4585dc0c8675a6437006acbfe4a958a9abb9cf3f25b1038158b1ca42a67e92d63334ab3702cf2deb1497ae1ee98a175621023e4d1042f66021891ed7fe7ba1d7be908df06f332203024bc9cf40472656c61796564",
+   "length": 190,
+   "rns": {
+    "header_type": 1,
+    "context_flag": 0,
+    "propagation": 1,
+    "destination_type": 0,
+    "packet_type": 1,
+    "hops": 1,
+    "transport_id": "9d9bd080c0a081d0054ff72ceaa32fee",
+    "destination_hash": "53802fddcecac99e39bf6144e3e1de1d",
+    "context": 0,
+    "data_length": 155
+   }
+  },
+  {
+   "name": "data_plain",
+   "note": "data to a PLAIN destination (readable payload)",
+   "raw": "0800e6a749b29a4fbadd0d52efd02c5d570600706c61696e2074657874206f6e20616972",
+   "length": 36,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 0,
+    "propagation": 0,
+    "destination_type": 2,
+    "packet_type": 0,
+    "hops": 0,
+    "transport_id": null,
+    "destination_hash": "e6a749b29a4fbadd0d52efd02c5d5706",
+    "context": 0,
+    "data_length": 17
+   }
+  },
+  {
+   "name": "data_single",
+   "note": "data to a SINGLE destination (encrypted)",
+   "raw": "000053802fddcecac99e39bf6144e3e1de1d0033c44edf98ab6a6419cfca3ddd1c152de8f6dc3d60933c39233a277c142e9d13229e63265c8517eb7e5bd2153f5a14413f5e4f506d20f940a5ec5b5c3e6f1f9c3bf20e459b3672aa3e913c6515bd4bb256a41b9962c1296c0ba029eeef9797ac",
+   "length": 115,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 0,
+    "propagation": 0,
+    "destination_type": 0,
+    "packet_type": 0,
+    "hops": 0,
+    "transport_id": null,
+    "destination_hash": "53802fddcecac99e39bf6144e3e1de1d",
+    "context": 0,
+    "data_length": 96
+   }
+  },
+  {
+   "name": "path_request",
+   "note": "a path request for the beacon's destination",
+   "raw": "08006b9f66014d9853faab220fba47d027610053802fddcecac99e39bf6144e3e1de1d544767cb8aee74b952c85f78c40985ab",
+   "length": 51,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 0,
+    "propagation": 0,
+    "destination_type": 2,
+    "packet_type": 0,
+    "hops": 0,
+    "transport_id": null,
+    "destination_hash": "6b9f66014d9853faab220fba47d02761",
+    "context": 0,
+    "data_length": 32
+   }
+  },
+  {
+   "name": "link_request",
+   "note": "a link request to the beacon's destination",
+   "raw": "020053802fddcecac99e39bf6144e3e1de1d00ae03f52a786fbb87e3cdf636e0088d136e07ef7f21a117604b60eef4ea1aef07b34f1b7eee1991be335f9e27412b01c29db39faaafaa99e8aa2be0681e5fd6682001f4",
+   "length": 86,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 0,
+    "propagation": 0,
+    "destination_type": 0,
+    "packet_type": 2,
+    "hops": 0,
+    "transport_id": null,
+    "destination_hash": "53802fddcecac99e39bf6144e3e1de1d",
+    "context": 0,
+    "data_length": 67
+   }
+  },
+  {
+   "name": "proof",
+   "note": "a delivery proof for a data packet",
+   "raw": "03009c4f65e40d51d5cd62f7b03df8689e07009c4f65e40d51d5cd62f7b03df8689e07574648681d9d0e95fa0bf3bb8c3ebcb48eb0b9ce0ac1277c413da92997a5d691ae8b3761537d760a6135038ff5ccfd08b09b360ee64d222ec8a441691726cb4c4518f967b931f57ba406826550bbe609",
+   "length": 115,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 0,
+    "propagation": 0,
+    "destination_type": 0,
+    "packet_type": 3,
+    "hops": 0,
+    "transport_id": null,
+    "destination_hash": "9c4f65e40d51d5cd62f7b03df8689e07",
+    "context": 0,
+    "data_length": 96
+   }
+  },
+  {
+   "name": "ifac_masked",
+   "note": "an announce behind an interface access code",
+   "raw": "e79c581537d0634eb49b74c9fa46427ee507eb83bb566dc0e9f8cd998636364f1b2d986a33aa9f867c3c37f96518bc1dafd5b13944acc9d4c638a953f34ca4d4b8e8ba422e92d09d1598218d416a9c5929f24d1dd0381e8db7690482fe39ef4e196b644f72fd144c620cdd24853495e05b874252d2d37bc83ba3f7fa46130f46664048866ce94f1fb7db21ba7f6dce56b51459902d83b46093f8c3c66022e20c70c58878d10a121622d1151374b02a256e56be3fdcbfa1c182be104625b03d57521a6b79c5526f07ed6850c6",
+   "length": 204,
+   "rns": null,
+   "ifac": true
+  },
+  {
+   "name": "min_type1",
+   "note": "header 1 with a single data byte: the shortest packet",
+   "raw": "00000102030405060708090a0b0c0d0e0f100042",
+   "length": 20,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 0,
+    "propagation": 0,
+    "destination_type": 0,
+    "packet_type": 0,
+    "hops": 0,
+    "transport_id": null,
+    "destination_hash": "0102030405060708090a0b0c0d0e0f10",
+    "context": 0,
+    "data_length": 1
+   }
+  },
+  {
+   "name": "no_data",
+   "note": "header 1 and context, nothing after: RNS drops it",
+   "raw": "00000102030405060708090a0b0c0d0e0f1000",
+   "length": 19,
+   "rns": null
+  },
+  {
+   "name": "hops_127",
+   "note": "127 hops: still accepted",
+   "raw": "007f0102030405060708090a0b0c0d0e0f100042",
+   "length": 20,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 0,
+    "propagation": 0,
+    "destination_type": 0,
+    "packet_type": 0,
+    "hops": 127,
+    "transport_id": null,
+    "destination_hash": "0102030405060708090a0b0c0d0e0f10",
+    "context": 0,
+    "data_length": 1
+   }
+  },
+  {
+   "name": "hops_128",
+   "note": "128 hops: RNS drops it",
+   "raw": "00800102030405060708090a0b0c0d0e0f100042",
+   "length": 20,
+   "rns": null
+  },
+  {
+   "name": "type2_short",
+   "note": "header type 2 without room for both addresses",
+   "raw": "40000102030405060708090a0b0c0d0e0f100042",
+   "length": 20,
+   "rns": null
+  },
+  {
+   "name": "type2_min",
+   "note": "header type 2 with both addresses and one data byte",
+   "raw": "4000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0102030405060708090a0b0c0d0e0f100042",
+   "length": 36,
+   "rns": {
+    "header_type": 1,
+    "context_flag": 0,
+    "propagation": 0,
+    "destination_type": 0,
+    "packet_type": 0,
+    "hops": 0,
+    "transport_id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "destination_hash": "0102030405060708090a0b0c0d0e0f10",
+    "context": 0,
+    "data_length": 1
+   }
+  },
+  {
+   "name": "link_proof_flags",
+   "note": "PROOF to a LINK destination, LRPROOF context",
+   "raw": "0f030102030405060708090a0b0c0d0e0f10ff42",
+   "length": 20,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 0,
+    "propagation": 0,
+    "destination_type": 3,
+    "packet_type": 3,
+    "hops": 3,
+    "transport_id": null,
+    "destination_hash": "0102030405060708090a0b0c0d0e0f10",
+    "context": 255,
+    "data_length": 1
+   }
+  },
+  {
+   "name": "group_path_response",
+   "note": "data to a GROUP destination, path response context",
+   "raw": "04000102030405060708090a0b0c0d0e0f100b42",
+   "length": 20,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 0,
+    "propagation": 0,
+    "destination_type": 1,
+    "packet_type": 0,
+    "hops": 0,
+    "transport_id": null,
+    "destination_hash": "0102030405060708090a0b0c0d0e0f10",
+    "context": 11,
+    "data_length": 1
+   }
+  },
+  {
+   "name": "context_flag_data",
+   "note": "context flag set on a data packet",
+   "raw": "20000102030405060708090a0b0c0d0e0f100042",
+   "length": 20,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 1,
+    "propagation": 0,
+    "destination_type": 0,
+    "packet_type": 0,
+    "hops": 0,
+    "transport_id": null,
+    "destination_hash": "0102030405060708090a0b0c0d0e0f10",
+    "context": 0,
+    "data_length": 1
+   }
+  },
+  {
+   "name": "mtu",
+   "note": "500 bytes: the Reticulum MTU",
+   "raw": "08000102030405060708090a0b0c0d0e0f100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "length": 500,
+   "rns": {
+    "header_type": 0,
+    "context_flag": 0,
+    "propagation": 0,
+    "destination_type": 2,
+    "packet_type": 0,
+    "hops": 0,
+    "transport_id": null,
+    "destination_hash": "0102030405060708090a0b0c0d0e0f10",
+    "context": 0,
+    "data_length": 481
+   }
+  },
+  {
+   "name": "two_bytes",
+   "note": "two bytes",
+   "raw": "0100",
+   "length": 2,
+   "rns": null
+  },
+  {
+   "name": "empty",
+   "note": "nothing",
+   "raw": "",
+   "length": 0,
+   "rns": null
+  }
+ ]
+}

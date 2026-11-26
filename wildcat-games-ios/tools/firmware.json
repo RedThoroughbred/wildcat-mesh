@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "generated": "2026-10-02T15:17:56Z",
+  "source": "GitHub releases of meshtastic/firmware and meshcore-dev/MeshCore (tools/firmware_manifest.py)",
+  "networks": {
+    "meshtastic": {
+      "repo": "meshtastic/firmware",
+      "latest": {
+        "version": "2.7.26",
+        "full": "2.7.26.54e0d8d",
+        "build": "54e0d8d",
+        "tag": "v2.7.26.54e0d8d",
+        "name": "Meshtastic Firmware 2.7.26.54e0d8d Beta",
+        "date": "2026-06-24",
+        "url": "https://github.com/meshtastic/firmware/releases/tag/v2.7.26.54e0d8d",
+        "summary": "If you encounter touch screen accuracy issues on a T-Deck, please run the screen calibration in MUI tools. Bug fixes and maintenance: Lora led rx; Additional RAK missing values for 6421 / 13300 13302 modules + Zebra/Nebra Hat Configs; Use standard GPS enable pin, for smarter…"
+      },
+      "tested": {
+        "version": "2.7.x",
+        "note": "Wildcat Mesh 1.1 was built and tested against Meshtastic 2.7."
+      }
+    },
+    "meshcore": {
+      "repo": "meshcore-dev/MeshCore",
+      "latest": {
+        "version": "1.17.1",
+        "full": "v1.17.1-d929643",
+        "build": "d929643",
+        "tag": "companion-v1.17.1",
+        "name": "Companion Firmware v1.17.1",
+        "date": "2026-08-14",
+        "url": "https://github.com/meshcore-dev/MeshCore/releases/tag/companion-v1.17.1",
+        "summary": "Companion Firmware v1.17.1. See the release page for what changed."
+      },
+      "tested": {
+        "version": "1.17.1",
+        "note": "Wildcat Mesh 1.1 was built and tested against MeshCore companion 1.17.1."
+      },
+      "role": "companion"
+    }
+  }
+}

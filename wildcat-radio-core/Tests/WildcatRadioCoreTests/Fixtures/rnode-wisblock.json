@@ -1,0 +1,94 @@
+{
+ "device": "RAK WisBlock RAK4631 (nRF52840 + SX1262), RNode firmware 1.86, product 10:12:51, serial 00:00:00:03",
+ "captured": "2026-10-07T20:45:45-04:00",
+ "transport": "USB serial 115200 (the same KISS frames travel over Bluetooth LE, Nordic UART service)",
+ "rnodeconf_info": {
+  "product": "RAK4631 779 - 928 MHz (10:12:51)",
+  "device_signature": "Validated - Local signature",
+  "firmware_version": "1.86",
+  "hardware_revision": "1",
+  "serial_number": "00:00:00:03",
+  "modem_chip": "SX1262",
+  "frequency_range": "779.0 MHz - 928.0 MHz",
+  "max_tx_power": "22 dBm",
+  "manufactured_local": "2026-10-07 20:29:45",
+  "device_mode": "Normal (host-controlled)"
+ },
+ "exchanges": [
+  {
+   "name": "detect",
+   "sent": "c0 08 73 c0 c0 50 00 c0 c0 48 00 c0 c0 49 00 c0 c0 47 00 c0 c0 56 01 c0 c0 60 01 c0 c0 60 02 c0",
+   "received": "c0 08 46 c0 c0 50 01 56 c0 c0 48 70 c0 c0 49 71 c0 c0 47 51 c0 c0 56 93 d0 33 b4 a0 15 84 fa 9f 90 f8 e0 27 f8 1f f8 63 50 dc cd 0e c2 28 de 81 ae 90 ed 79 c6 65 4d c0 c0 60 01 25 82 01 29 02 9e 45 3d e2 61 4b 10 0b fb 00 2a c9 ba 11 62 cd 63 ac 75 d9 d8 04 bb c4 b4 0f dd c0 c0 60 02 25 82 01 29 02 9e 45 3d e2 61 4b 10 0b fb 00 2a c9 ba 11 62 cd 63 ac 75 d9 d8 04 bb c4 b4 0f dd c0"
+  },
+  {
+   "name": "rom_read",
+   "sent": "c0 51 00 c0",
+   "received": "c0 51 10 12 01 00 00 00 03 6a c6 e3 f9 34 e1 92 38 30 0b b5 78 b1 a6 c1 68 c7 ad 61 e0 a2 4a 2a 44 6a 55 df 58 4e 88 8d fe 6f 75 7d 6b 89 27 d7 cd ad f8 e5 50 eb 34 28 6e 03 df cd 06 1b 6f 1c 4f cc 03 86 f7 56 22 65 a6 d0 6e b5 c9 4d 9d 9d 22 2f 8c 6b da 6f ed 55 f7 23 d6 92 2e 56 5f 9f e7 8f ca 3d 47 7a 75 28 4c 0d 72 09 40 81 e7 38 84 77 c2 0e 8a a6 04 4d c6 43 03 a8 86 76 c3 3d 42 2d 5d 90 d3 9d 4e e0 ac 5c 7b 19 bd 62 be 1e a2 ae db dd ff a3 a8 4c e7 e7 6f 5f ee ad 73 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 73 73 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff c0"
+  },
+  {
+   "name": "frequency",
+   "sent": "c0 01 00 00 00 00 c0",
+   "received": "c0 01 36 87 e2 78 c0"
+  },
+  {
+   "name": "bandwidth",
+   "sent": "c0 02 00 00 00 00 c0",
+   "received": "c0 02 00 01 e8 48 c0"
+  },
+  {
+   "name": "txpower",
+   "sent": "c0 03 ff c0",
+   "received": "c0 03 07 c0"
+  },
+  {
+   "name": "spreading_factor",
+   "sent": "c0 04 ff c0",
+   "received": "c0 04 08 c0"
+  },
+  {
+   "name": "coding_rate",
+   "sent": "c0 05 ff c0",
+   "received": "c0 05 05 c0"
+  },
+  {
+   "name": "radio_state",
+   "sent": "c0 06 ff c0",
+   "received": "c0 06 00 c0"
+  },
+  {
+   "name": "stat_rx",
+   "sent": "c0 21 00 c0",
+   "received": "c0 21 00 00 00 00 c0"
+  },
+  {
+   "name": "stat_tx",
+   "sent": "c0 22 00 c0",
+   "received": "c0 22 00 00 00 00 c0"
+  },
+  {
+   "name": "stat_rssi",
+   "sent": "c0 23 00 c0",
+   "received": "c0 23 79 c0"
+  },
+  {
+   "name": "ready",
+   "sent": "c0 0f 00 c0",
+   "received": "c0 0f 01 c0"
+  },
+  {
+   "name": "random",
+   "sent": "c0 40 00 c0",
+   "received": "c0 40 de c0"
+  },
+  {
+   "name": "idle",
+   "sent": "",
+   "received": ""
+  },
+  {
+   "name": "leave",
+   "sent": "c0 0a ff c0",
+   "received": ""
+  }
+ ]
+}
